@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f7">
+  <meta name="description" content="조찬현 — A small museum for the moments we want to keep.">
+  <title>조찬현 — A Museum of Memories</title>
+  <link rel="preload" href="assets/fonts/NanumBrushScript-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#collection">Skip to the collection</a>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="조찬현 — Home"><svg class="museum-mark" viewBox="0 0 40 44" fill="none" aria-hidden="true" focusable="false"><path d="M4 13 20 4l16 9H4Zm2 4h28M9 20v15m11-15v15m11-15v15M6 38h28M3 42h34" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/><path d="M7 20h4m7 0h4m7 0h4M7 35h4m7 0h4m7 0h4" stroke="currentColor" stroke-width="1.25"/></svg><span class="brand-wordmark" lang="ko">조찬현</span></a>
+    <nav aria-label="Main navigation"><a href="#about">Our story</a><a href="#collection">Collection</a><a href="#letter">A letter</a></nav>
+    <span class="header-note">A private little museum</span>
+  </header>
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-memory-layer" aria-hidden="true">
+        <div class="memory-print memory-print-left"><img src="assets/018.jpg" alt="" loading="lazy" width="240" height="300"></div>
+        <div class="memory-print memory-print-center"><img src="assets/030.jpg" alt="" loading="lazy" width="240" height="300"></div>
+        <div class="memory-film-strip"><img src="assets/020.jpg" alt="" loading="lazy" width="180" height="180"><img src="assets/031.jpg" alt="" loading="lazy" width="180" height="180"><img src="assets/032.jpg" alt="" loading="lazy" width="180" height="180"></div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="short-rule" aria-hidden="true"></span> A museum of memories</p>
+        <h1 id="hero-title">The art of<br>keeping<br><em>a moment.</em></h1>
+        <p class="hero-description">A little museum for ordinary moments,<br class="desktop-break"> and the memories we never want to lose.</p>
+        <a class="button button-dark" href="#collection">Enter the museum <span class="button-spark" aria-hidden="true">✧</span></a>
+        <div class="hero-dedication"><span class="tiny-star" aria-hidden="true">✳</span><span>For 조찬현.<br><i>And all the moments in between.</i></span></div>
+      </div>
+      <div class="hero-exhibit hanging-exhibit">
+        <div class="photo-silk" aria-hidden="true"><span class="silk-hanger"></span><span class="silk-tail silk-tail-left"></span><span class="silk-tail silk-tail-right"></span></div>
+        <span class="silk-tie" aria-hidden="true"></span>
+        <button class="arch-frame paper-frame" data-photo="6" aria-label="View a portrait of 조찬현"><img src="assets/006.jpg" alt="조찬현 in the soft light of a window" fetchpriority="high" width="600" height="800"><span class="frame-note" aria-hidden="true">A moment, made timeless.</span></button>
+        <div class="exhibit-caption"><span>조찬현</span><i>A moment, made timeless.</i></div>
+        <span class="vertical-note" aria-hidden="true">THE PERSONAL COLLECTION</span>
+      </div>
+      <div class="hero-footer"><span>Photographs. Fragments. Feelings.</span><span>Collected with love, kept with care.</span><a class="scroll-cue" href="#about"><span class="scroll-mouse" aria-hidden="true"></span><span class="scroll-label">Scroll to explore</span></a></div>
+    </section>
+    <section class="introduction" id="about" aria-labelledby="about-title">
+      <div class="intro-symbol" aria-hidden="true">✧</div>
+      <p class="eyebrow">The things we choose to keep</p>
+      <h2 id="about-title">Not every moment<br>needs to be <em>extraordinary.</em></h2>
+      <p>Some things stay with us simply because they happened.<br>A passing glance. A sunlit afternoon. A fleeting smile.<br>This is a place to keep those little things.</p>
+      <span class="intro-signature" lang="ko">조찬현</span>
+    </section>
+    <section class="selected section-wrap" aria-labelledby="selected-title">
+      <div class="section-heading"><div><p class="eyebrow">The curator’s selection</p><h2 id="selected-title">A few <em>lasting impressions.</em></h2></div><p>Stay a little longer.<br>Every photograph holds a story.</p></div>
+      <div class="selected-grid">
+        <figure class="selected-work"><button class="mat-frame paper-frame keepsake-print" data-photo="18" aria-label="View Through the leaves"><span class="wood-moulding"><img src="assets/018.jpg" alt="조찬현 glimpsed through green leaves" loading="lazy" width="600" height="750"></span><span class="print-caption"><span>Through the leaves</span><small>A little everyday poetry</small></span></button></figure>
+        <figure class="selected-work"><button class="mat-frame paper-frame keepsake-print" data-photo="29" aria-label="View A quiet moment"><span class="wood-moulding"><img src="assets/029.jpg" alt="조찬현 sitting and reading in a quiet room" loading="lazy" width="600" height="750"></span><span class="print-caption"><span>A quiet moment</span><small>The quiet moments</small></span></button></figure>
+        <figure class="selected-work"><button class="mat-frame paper-frame keepsake-print" data-photo="24" aria-label="View Between ordinary days"><span class="wood-moulding"><img src="assets/024.jpg" alt="조찬현 leaning beside a window" loading="lazy" width="600" height="750"></span><span class="print-caption"><span>Between ordinary days</span><small>Simply, being</small></span></button></figure>
+      </div>
+    </section>
+    <section class="collection section-wrap" id="collection" aria-labelledby="collection-title">
+      <div class="section-heading"><div><p class="eyebrow">The permanent collection</p><h2 id="collection-title">Fragments of <em>memory.</em></h2></div></div>
+      <div class="collection-toolbar"><div class="filters" role="group" aria-label="Filter the collection"><button class="filter active" data-filter="all" aria-pressed="true">All photographs</button><button class="filter" data-filter="portrait" aria-pressed="false">Portraits</button><button class="filter" data-filter="everyday" aria-pressed="false">Everyday life</button><button class="filter" data-filter="screen" aria-pressed="false">On screen</button></div><button class="slideshow-start" id="playCollection"><span aria-hidden="true">▷</span> Watch the slideshow</button></div>
+      <p class="sr-only" id="filterStatus" role="status" aria-live="polite"></p>
+      <div class="photo-grid" id="photoGrid"></div>
+      <noscript><p>Please enable JavaScript to explore the full collection. The selected photographs above are still available to view.</p></noscript>
+      <div class="collection-end"><span></span><p>Every photograph, a place to return to.</p><span></span></div>
+    </section>
+    <section class="letter-section" id="letter" aria-labelledby="letter-title">
+      <div class="letter-intro">
+        <span class="letter-ornament" aria-hidden="true">❦</span>
+        <p class="eyebrow">A note, left here for you</p>
+        <h2 id="letter-title">Dear <em lang="ko">조찬현,</em></h2>
+        <p>To the days behind us, and the ones still to come.<br> May there always be something gentle to remember.</p>
+        <p class="letter-aside">Written with care.<br>Kept here, just for you.</p>
+      </div>
+      <details class="postcard letter-page">
+        <summary aria-controls="personalLetter" aria-label="Open letter to 조찬현">
+          <span class="postcard-front" aria-hidden="true">
+            <img class="postcard-art" src="assets/decor/postcard-coast.png" alt="" loading="lazy" width="735" height="412">
+            <span class="postcard-front-copy"><span class="postcard-name" lang="ko">조찬현</span><span class="postcard-open-hint">Click to open the letter</span></span>
+          </span>
+          <span class="postcard-close-fallback">Back to the postcard</span>
+        </summary>
+        <div class="postcard-back">
+          <div class="letter-reader-header"><span>A personal letter</span><button id="closeLetter" type="button" hidden>Close letter</button></div>
+          <aside class="postcard-address" aria-label="Postcard address">
+            <p class="postcard-salutation">Sincerely yours.</p>
+            <div class="postcard-field"><span>For</span><p lang="ko">조찬현</p></div>
+            <div class="postcard-field"><span>From</span><p>A fan, with appreciation.</p></div>
+            <p class="postcard-address-foot">A small gift.<br>A lasting memory.</p>
+          </aside>
+          <div class="postcard-message">
+            <span class="postcard-stamp" aria-hidden="true"><img src="assets/decor/postcard-coast.png" alt="" loading="lazy" width="70" height="86"></span>
+            <div class="letter-content" id="personalLetter">
+              <div class="letter-sheet" role="group" aria-label="Letter page 1 of 3" tabindex="-1">
+                <p class="letter-greeting"><strong>Dear <span lang="ko">조찬현</span>,</strong></p>
+                <p>Hello! I'm one of your fans.</p>
+                <p>I first discovered you through <em>The Sounds of Sugar Cubes</em>. Your performance left a strong impression on me, and that's what led me to start following you on Instagram.</p>
+              </div>
+              <div class="letter-sheet" role="group" aria-label="Letter page 2 of 3" tabindex="-1">
+                <p>I wanted to express my appreciation in my own way, so I decided to design and code this website as a small gift for you. Each photograph was carefully selected, and I genuinely enjoyed putting this collection together.</p>
+                <p>I hope that, years from now, this little archive might be something you can revisit and look back on the moments that marked the early chapters of your career.</p>
+              </div>
+              <div class="letter-sheet" role="group" aria-label="Letter page 3 of 3" tabindex="-1">
+                <p>I sincerely wish you many more opportunities, meaningful roles, and continued success in the years ahead. I look forward to seeing where your journey takes you next.</p>
+                <p>Hopefully, I'll have the chance to meet you in person someday.</p>
+                <p>Until then, take care and keep doing what you love.</p>
+                <p><strong>Best wishes,</strong></p>
+                <p><em>From a fan, with appreciation.</em></p>
+              </div>
+            </div>
+          </div>
+          <nav class="letter-pagination" id="letterPagination" aria-label="Letter pages" hidden><button id="previousLetterPage" type="button">Previous</button><span id="letterPageStatus" role="status" aria-live="polite">Page 1 of 3</span><button id="nextLetterPage" type="button">Next</button></nav>
+        </div>
+      </details>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-identity"><a class="footer-brand" lang="ko" href="#home">조찬현</a><span>A personal museum · 2026</span></div>
+    <p class="footer-credit">Designed &amp; built by <a class="footer-github" href="https://github.com/Lacdong" target="_blank" rel="noopener noreferrer" aria-label="Lacdong on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.043-1.61-4.043-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.237 1.838 1.237 1.07 1.835 2.807 1.305 3.492.998.108-.776.42-1.305.763-1.605-2.665-.3-5.467-1.332-5.467-5.93 0-1.31.467-2.38 1.235-3.22-.124-.303-.535-1.524.117-3.176 0 0 1.008-.323 3.3 1.23a11.52 11.52 0 0 1 3.005-.404c1.02.005 2.045.138 3.003.404 2.29-1.553 3.295-1.23 3.295-1.23.655 1.652.244 2.873.12 3.175.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.48 5.922.43.372.823 1.102.823 2.222 0 1.605-.015 2.898-.015 3.293 0 .322.216.694.825.576C20.565 21.795 24 17.3 24 12c0-6.627-5.373-12-12-12Z"/></svg><span>Lacdong</span></a></p>
+    <a class="footer-top" href="#home">Back to the top</a>
+  </footer>
+  <dialog class="viewer" id="viewer" aria-label="Photo viewer" aria-describedby="viewerCaption">
+    <div class="viewer-top"><span>조찬현 <i>The collection</i></span><button class="viewer-close" id="closeViewer" aria-label="Close photo viewer">Close <span aria-hidden="true">×</span></button></div>
+    <div class="viewer-stage"><button class="viewer-prev" id="prevPhoto" aria-label="Previous photograph">‹</button><figure><img id="viewerImage" alt=""><figcaption id="viewerCaption"></figcaption></figure><button class="viewer-next" id="nextPhoto" aria-label="Next photograph">›</button></div>
+    <div class="viewer-bottom"><span id="viewerCount"></span><button id="togglePlay" aria-pressed="false">Play slideshow</button><span class="viewer-hint">Use the left / right keys to browse</span></div>
+  </dialog>
+</body>
+</html>

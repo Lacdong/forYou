@@ -1,0 +1,15 @@
+# Local design previews
+/*-preview.jpg
+
+# Unused design experiments
+/assets/decor/frame-blue-butterflies.png
+/assets/decor/frame-blue-rose.png
+/assets/decor/postcard-flowers.png
+/assets/fonts/GreatVibes-Regular.ttf
+/assets/fonts/OFL-GreatVibes.txt
+
+# Editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
