@@ -16,9 +16,11 @@ const entries = [
   [28, 'Like a recollection', 'screen'], [29, 'A quiet moment', 'portrait'],
   [30, 'Sunlight at the window', 'everyday'], [31, 'An unhurried afternoon', 'everyday'],
   [32, 'A familiar corner', 'everyday'], [33, 'Through a quiet night', 'everyday'],
-  [34, 'A day to remember', 'everyday']
+  [34, 'A day to remember', 'everyday'],
+  [35, 'Before the next take', 'screen', 'jpeg'],
+  [36, 'At the piano', 'screen', 'jpeg']
 ];
-const photos = entries.map(([id, title, category]) => ({ id, title, category, src: `assets/${String(id).padStart(3, '0')}.jpg` }));
+const photos = entries.map(([id, title, category, extension = 'jpg']) => ({ id, title, category, src: `assets/${String(id).padStart(3, '0')}.${extension}` }));
 const $ = selector => document.querySelector(selector);
 const grid = $('#photoGrid');
 const viewer = $('#viewer');
