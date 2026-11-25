@@ -18,7 +18,7 @@ The site is plain HTML, CSS, and JavaScript. No installation or build step is ne
 
 ## Photographs and assets
 
-`assets/` contains 33 JPEG photographs, numbered 001–036 with 017, 023, and 026 absent. Photographs 001–034 use `.jpg`; the new 035 and 036 files use `.jpeg`. The `entries` list in `app.js` defines their titles, categories, and optional file extensions. No frames are created for missing photographs.
+`assets/` contains 33 JPEG photographs, numbered consecutively 001–033. Photographs 001–031 use `.jpg`; photographs 032 and 033 use `.jpeg`. The `entries` list in `app.js` defines their titles, categories, and optional file extensions. No frames are created for missing photographs.
 
 The photo colour treatment is applied through CSS; source image files are unchanged. The supplied postcard artwork is `assets/decor/postcard-coast.png`. The Korean logo uses Nanum Brush Script, included with its SIL Open Font License in `assets/fonts/`.
 
